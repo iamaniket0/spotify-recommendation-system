@@ -15,7 +15,7 @@ def clean_data(data):
     data (pd.DataFrame): The input DataFrame containing the data to be cleaned.
 
     Returns:
-    pd.DataFrame: The cleaned DataFrame
+    pd.DataFrame: The cleaned DataFrame.
     """
     return (
         data
