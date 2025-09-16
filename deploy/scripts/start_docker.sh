@@ -22,4 +22,4 @@ fi
 echo "Starting new container..."
 docker run -d -p 80:8000 --name hybrid_recsys 891377050051.dkr.ecr.ap-south-1.amazonaws.com/spotify_hybrid_recsys:latest
 
-echo "Container started successfully!"
+echo "Container started successfully"
