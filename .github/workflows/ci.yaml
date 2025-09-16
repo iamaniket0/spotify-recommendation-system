@@ -74,7 +74,10 @@ jobs:
       - name: Upload ZIP to S3
         if: success()
         run: |
-            aws s3 cp deployment.zip s3://hybridrecsysdeploymentbucket/deployment.zip
+            aws s3 cp deployment.zip s3://hybrid-recsys-delployement-bucket/deployment.zip
+
+      
+      
 
       # Deploy to AWS CodeDeploy using the uploaded ZIP file
       - name: Deploy to AWS CodeDeploy
